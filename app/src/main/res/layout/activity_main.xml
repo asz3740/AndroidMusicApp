@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="노래추천"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:id="@+id/recommendation"
+                android:background="@drawable/recommendation"
+                android:fontFamily="@font/nanumeb"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:fontFamily="@font/nanumeb"
+                android:text="마이뮤직"
+                android:id="@+id/mymusic"
+                android:background="@drawable/mymusic"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:fontFamily="@font/nanumeb"
+                android:text="마이차트"
+                android:id="@+id/mychart"
+                android:background="@drawable/mychart"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:fontFamily="@font/nanumeb"
+                android:text="상황별추천곡"
+                android:id="@+id/siturecommendation"
+                android:background="@drawable/siturecommendation"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:fontFamily="@font/nanumeb"
+                android:text="날씨"
+                android:id="@+id/weather"
+                android:background="@drawable/weather"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:fontFamily="@font/nanumeb"
+                android:text="많이하는 질문"
+                android:id="@+id/question"
+                android:background="@drawable/question"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
